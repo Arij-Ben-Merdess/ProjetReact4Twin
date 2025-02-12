@@ -5,6 +5,11 @@ import { Button } from 'react-bootstrap'
 import './App.css'
 import Form from './Components/Form'
 import Hello from './Components/Hello'
+import ComponentFonc from './Components/ComposantFonc'
+import ComposantClass from './Components/ComposantClass'
+import ListManager from './Components/ListManager'
+import NotesManager from './Components/NotesManager'
+import ColorBox from './Components/ColorBox'
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -34,6 +39,13 @@ function App() {
 <Hello /> 
 <Form label="Firstname"/>
 <Button/>
+<ComponentFonc />
+<ComposantClass />
+<ListManager />
+<NotesManager></NotesManager>
+<ColorBox></ColorBox>
+
+
    </>
   )
 }
