@@ -1,15 +1,18 @@
 // import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
-import { Button } from 'react-bootstrap'
+// import { Button } from 'react-bootstrap'
 import './App.css'
-import Form from './Components/Form'
-import Hello from './Components/Hello'
-import ComponentFonc from './Components/ComposantFonc'
-import ComposantClass from './Components/ComposantClass'
-import ListManager from './Components/ListManager'
-import NotesManager from './Components/NotesManager'
-import ColorBox from './Components/ColorBox'
+// import Form from './Components/Form'
+// import Hello from './Components/Hello'
+// import ComponentFonc from './Components/ComposantFonc'
+// import ComposantClass from './Components/ComposantClass'
+// import ListManager from './Components/ListManager'
+// import NotesManager from './Components/NotesManager'
+// import ColorBox from './Components/ColorBox'
+// import Event from './Components/Event'
+import Events from './Components/Events'
+import Products from './Components/Products'
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -36,17 +39,18 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p> */}
-<Hello /> 
+{/*<Hello />
 <Form label="Firstname"/>
 <Button/>
 <ComponentFonc />
 <ComposantClass />
 <ListManager />
 <NotesManager></NotesManager>
-<ColorBox></ColorBox>
+<ColorBox></ColorBox>*/}
+    <Products />
 
 
-   </>
+</>
   )
 }
 
