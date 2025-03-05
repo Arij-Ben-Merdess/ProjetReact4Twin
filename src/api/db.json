@@ -1,0 +1,49 @@
+{
+  "events": [
+    {
+      "id": "1",
+      "name": "Festival international de Carthage",
+      "description": "Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page",
+      "img": "event1.jpg",
+      "price": 30,
+      "nbTickets": 10,
+      "nbParticipants": 10,
+      "like": false
+    },
+    {
+      "id": "2",
+      "name": "Festival de la médina de Tunis",
+      "description": "Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page",
+      "img": "event2.jpg",
+      "price": 15,
+      "nbTickets": 4,
+      "nbParticipants": 30,
+      "like": false
+    },
+    {
+      "id": "e75a",
+      "title": "test",
+      "content": "test"
+    },
+    {
+      "id": "76e2",
+      "title": "test",
+      "content": "test"
+    },
+    {
+      "id": "6b49",
+      "name": "EventA",
+      "description": "www",
+      "price": "23",
+      "img": "www",
+      "nbTickets": "2"
+    },
+    {
+      "id": "f10b",
+      "name": "aa",
+      "description": "aa",
+      "price": "23",
+      "nbTickets": "2"
+    }
+  ]
+}

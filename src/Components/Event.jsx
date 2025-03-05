@@ -5,9 +5,10 @@ const placesRestantes = nbTickets - nbParticipants;
 const isSoldOut = placesRestantes === 0;
 
 return (
-    <Card style={{ width: "18rem" }}>
-<Card.Img variant="top" src={`src/assets/${img}`}  />
+    <Card style={{ width: "18rem", margin:100}}>
+<Card.Img variant="top" src={`images/${img}`}  />
 <Card.Body>
+        
         <Card.Title>{name}</Card.Title>
         <Card.Text>{description}</Card.Text>
         <Card.Text>Prix : {price}€</Card.Text>

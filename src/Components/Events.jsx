@@ -1,16 +1,24 @@
 import { useState, useEffect } from "react";
 import Event from "./Event";
 import { Container, Row, Col, Alert } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import { getallEvents } from "../services/api";
 
 function Events() {
 const [events, setEvents] = useState([]);
 const [message, setMessage] = useState("");
 
 useEffect(() => {
-    fetch("src/events.json")
-.then((response) => response.json())
-.then((data) => setEvents(data))
-.catch((error) => console.error("Erreur lors du chargement des événements :", error));
+    const fetchEvents = async () => {
+        try {
+          const response = await getallEvents(); 
+          setEvents(response.data); 
+        } catch (error) {
+          console.error("Erreur lors du chargement des événements :", error);
+        }
+      };
+  
+      fetchEvents(); 
 }, []);
 
   // Fonction pour gérer l'achat d'un billet
@@ -49,7 +57,10 @@ return (
         {events.map((event, index) => (
 <Col key={index} md={4}>
             <Event
-name={event.name}
+            
+name=
+      {event.name}
+  
 img={event.img}
 price={event.price}
 nbTickets={event.nbTickets}
